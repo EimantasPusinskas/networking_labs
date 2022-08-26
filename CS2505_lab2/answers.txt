@@ -1,0 +1,19 @@
+------------------------------------
+
+CS2505 - Networking - Assignment 1
+Name: Eimantas Pusinskas
+Student Number: 120312336
+
+-----------------------------------
+
+Question 1
+A. The program runs as expected and the client is asked for user input
+B. Yes, because the log file logs what the message that the client has sent to the server
+C. No, because the other student is the client and not the server which means that the 
+students log file will not be updated
+
+
+Question 2.
+D. Yes it is possible for a third person to join the chat
+E. We need the client to keep running so that the client can keep sending and 
+receiving messages without having to establish a new socket

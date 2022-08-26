@@ -1,0 +1,21 @@
+-----------------------------------
+CS2505 - Networking - Assignment 3
+-----------------------------------
+
+Name: Eimantas Pusinskas
+Student Number: 120312336
+
+-----------------------------------
+
+One problem I encountered was deciding which HTTP request to use to obtain the desired file.
+I solved this problem by reading through the notes and deciding that a GET request would be
+most suitable for fetching the file from the server.
+
+The main problem I encountered was figuring out how to format the GET request. What helped me 
+solve this problem was by using the browser to fetch the file first and then using the Chrome
+Developer Tools to see what was received in the HTTP Header when the file was fetched.
+This helped me get a general idea of what would be required in my GET request. Then I googled
+how to lay out a GET request in code and tried to implement this in my own code using the
+knowledge I had acquired thus far. This failed because I was not specifying my pathname correctly.
+Through debugging and trial-and-error I eventually managed to figure out a solution and get
+my code working
